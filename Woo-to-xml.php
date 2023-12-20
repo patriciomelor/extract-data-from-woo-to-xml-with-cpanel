@@ -56,7 +56,7 @@ function generar_xml_personalizado() {
     // Resto del código para guardar el XML
 
     // Guardar el XML en el servidor
-    $ruta_archivo = '/Depo/depodental.xml';
+    $ruta_archivo = '/TU_PATH/Nombre_Archivo.xml';
     $ruta_completa = ABSPATH . $ruta_archivo;
 
     if (!is_dir(dirname($ruta_completa))) {
